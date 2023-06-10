@@ -14,7 +14,7 @@ function Item({marca, preco, foto}){
 Item.proptTypes = {
     marca : PropTypes.string.isRequired,
     foto : PropTypes.string.isRequired,
-    preco : PropTypes.float.isRequired,
+    preco : PropTypes.float
 }
 
 Item.defaultProps = {
