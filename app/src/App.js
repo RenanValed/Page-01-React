@@ -6,7 +6,7 @@ import Frase from './components/Frase'
 import List from './components/List'
 import Evento from './components/Evento'
 import Form from './components/Form'
-
+import Condicional from './components/Condicional'
 
 
 function App() {
@@ -42,6 +42,9 @@ function App() {
     <Evento/>
 
     <Form />
+
+    <h1>Renderização condicional (if)  </h1>
+    <Condicional />
 
 
     </div>

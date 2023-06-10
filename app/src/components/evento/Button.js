@@ -1,5 +1,5 @@
 function Button(props){
-    return <button onClick={props.event} >{props.text}</button>
+    return <button type={props.type} onClick={props.event} >{props.text}</button>
 
 }
 
