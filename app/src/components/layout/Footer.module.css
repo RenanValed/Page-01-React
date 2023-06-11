@@ -1,7 +1,22 @@
 .rodape{
     background-color: black;
-    color: aliceblue;
-    text-align: center;
+    color: rgb(248, 229, 229);
+    text-align: right;
     margin-top: 2em;
     padding: 3em;
+}
+
+.socialList{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.socialList li{
+    margin: 0 1em;
+}
+
+.socialList svg{
+    font-size: 2em;
+    cursor: pointer;
 }
