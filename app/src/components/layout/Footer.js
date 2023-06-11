@@ -1,5 +1,5 @@
 import styles from './Footer.module.css'
-import {FaFacebook, FaFacebookF, FaGithub, FaInstagram} from 'react-icons/fa'
+import {FaFacebookF, FaGithub, FaInstagram} from 'react-icons/fa'
 
 function Footer(){
     return <footer className={styles.rodape}>
