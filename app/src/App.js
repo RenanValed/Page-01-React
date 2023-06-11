@@ -1,5 +1,7 @@
 import './App.css'
 
+import { useState } from 'react'
+
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import Frase from './components/Frase'
@@ -8,6 +10,8 @@ import Evento from './components/Evento'
 import Form from './components/Form'
 import Condicional from './components/Condicional'
 import OutraLista from './components/OutraLista'
+import SeuNome from './components/SeuNome'
+import Saudacao from './components/Saudacao'
 
 
 function App() {
@@ -15,6 +19,8 @@ function App() {
   const foto1= "https://luiscardoso.com.br/wp-content/uploads/2020/06/160F46FA-F58E-4967-A86D-18C99E9C3D89.jpeg"
   const name = "Manoel Gomes"
 
+  const [nome, setNome] = useState()
+  
   const meusItens = ['React', 'Vue', 'Angular']
   const itensVazio = []
 
@@ -52,7 +58,10 @@ function App() {
     <h1>Renderização de listas  </h1>
     <OutraLista itens={meusItens}/>
     <OutraLista itens={itensVazio}/>
-    
+
+    <h1>State Lift</h1>
+    <SeuNome setNome={setNome}/>
+    <Saudacao nome={nome}/>
     </div>
 
     
