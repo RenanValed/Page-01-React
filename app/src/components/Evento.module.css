@@ -1,4 +1,6 @@
 .eventoContent{
-    background-color: rgb(192, 229, 253);
+    background-color: rgb(223, 223, 223);
     padding: 10px;
+    margin: auto 30%;
+    border-radius: 100px;
 }
