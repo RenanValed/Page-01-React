@@ -1,4 +1,3 @@
-import Item from "./Item"
 import Style from "./OutraLista.module.css"
 
 function OutraLista({ itens }){
